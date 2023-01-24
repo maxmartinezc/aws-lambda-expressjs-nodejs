@@ -1,0 +1,25 @@
+{
+  "name": "aws-lambda-expressjs-nodejs",
+  "version": "1.0.0",
+  "description": "AWS Lambda Function using expressjs over nodejs",
+  "main": "index.js",
+  "scripts": {
+    "local": "APP_ENV=local node app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmartinezc/aws-lambda-expressjs-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxmartinezc/aws-lambda-expressjs-nodejs/issues"
+  },
+  "homepage": "https://github.com/maxmartinezc/aws-lambda-expressjs-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serverless-http": "^3.1.1"
+  }
+}
